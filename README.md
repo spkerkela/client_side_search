@@ -14,3 +14,7 @@ $ npm run build
 ```bash
 $ npm run server
 ```
+
+## Demo
+
+https://spkerkela.github.io/client_side_search/
