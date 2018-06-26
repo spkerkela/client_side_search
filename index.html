@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>search test</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Search Test</h1>
+        <input v-on:change="search" v-model="searchtext" type="text" class="search" id="search" placeholder="search">
+        <div class="cool" v-for="document in documents">
+            <h3>{{document.name}}</h3>
+            <p>{{document.text}}</p>
+            <a :href="document.site">{{document.site}}</a>
+        </div>
+
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+
+</html>

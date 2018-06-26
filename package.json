@@ -1,0 +1,21 @@
+{
+  "name": "search_test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "serve": "serve",
+    "prettify": "prettier --write src/**/*.js *.css *.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "9.1.0",
+    "webpack": "4.12.1",
+    "webpack-cli": "3.0.8"
+  },
+  "dependencies": {
+    "lunr": "2.3.0",
+    "vue": "2.5.16"
+  }
+}
