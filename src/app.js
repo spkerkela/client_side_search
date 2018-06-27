@@ -38,6 +38,7 @@ const documents = [
 const idx = lunr(function() {
   this.ref("name");
   this.field("text");
+  this.field("name");
   documents.forEach(function(doc) {
     this.add(doc);
   }, this);
