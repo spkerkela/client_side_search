@@ -10,16 +10,15 @@
 
 <body>
     <div id="app">
+        <script src="dist/main.js"></script>
         <h1>Search Test</h1>
-        <input v-on:change="search" v-model="searchtext" type="text" class="search" id="search" placeholder="search">
+        <input v-on:change="search" v-model="searchtext" type="text" class="search" id="search" placeholder="Search..">
         <div class="cool" v-for="document in documents">
             <h3>{{document.name}}</h3>
             <p>{{document.text}}</p>
             <a :href="document.site">{{document.site}}</a>
         </div>
-
     </div>
-    <script src="dist/main.js"></script>
 </body>
 
 </html>

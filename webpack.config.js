@@ -6,8 +6,19 @@ module.exports = {
     alias: {
       vue$: "vue/dist/vue.esm.js" // 'vue/dist/vue.common.js' for webpack 1
     }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"]
+          }
+        }
+      }
+    ]
   }
-  // the loader which should be applied, it'll be resolved relative to the context
-  // -loader suffix is no longer optional in webpack2 for clarity reasons
-  // see webpack 1 upgrade guide
 };
