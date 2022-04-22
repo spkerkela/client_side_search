@@ -12,7 +12,7 @@ $ npm run build
 ## Run locally
 
 ```bash
-$ npm run server
+$ npm run serve
 ```
 
 ## Demo
