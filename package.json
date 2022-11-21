@@ -20,7 +20,7 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
-    "lunr": "2.3.0",
+    "lunr": "2.3.9",
     "vue": "2.5.16"
   }
 }
