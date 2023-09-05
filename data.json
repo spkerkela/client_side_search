@@ -36,5 +36,10 @@
     "name": "spkerkela",
     "text": "The blog of Simo-Pekka Kerkelä",
     "site": "https://spkerkela.com"
+  },
+  {
+    "name": "google",
+    "text": "A search engine",
+    "site": "https://google.com"
   }
 ]
